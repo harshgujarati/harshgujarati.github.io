@@ -207,4 +207,3 @@ window.addEventListener('load', () => {
     const loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
     document.getElementById('load-time').innerText = (loadTime / 1000).toFixed(2) + 's';
 });
-});
